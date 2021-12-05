@@ -1,0 +1,57 @@
+:root
+{
+    --dark: #461220;
+    --light: #E3D3E4;
+    
+    --primary: #81A684; 
+    --secondary: #8C2F39;
+    --tertiary: #C8D6AF;
+}
+h1
+{
+    color:var(--light);
+    text-align: center;
+    margin-block-end: 0;
+    padding: 1rem;
+    background-color: var(--dark);
+}
+body
+{
+    background-color:var(--light);
+}
+/* nav styles start */
+nav li
+{
+   list-style-type: none; 
+   display: inline;
+   padding: 2rem;
+   font-size: 1.1rem;
+}
+nav li a
+{
+    color: var(--dark);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius:10%;
+}
+nav li a.current
+{
+    background-color: var(--dark);
+    color: var(--light);
+   
+}
+nav li a:hover
+{
+    color:var(--secondary);
+    background-color: var(--tertiary);
+}
+nav
+{
+     background-color: var(--secondary);
+     padding: 0.2rem;
+     position:sticky;
+     text-align: center;
+     margin-block-start: 0;
+     border: 0.5rem double var(--dark);
+}
+/* nav styles end */
