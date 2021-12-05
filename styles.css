@@ -18,6 +18,7 @@ h1
 body
 {
     background-color:var(--light);
+    font-family: 'Quicksand', sans-serif;
 }
 /* nav styles start */
 nav li
@@ -55,3 +56,29 @@ nav
      border: 0.5rem double var(--dark);
 }
 /* nav styles end */
+
+/* layout a styles start */
+.layouta
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 25rem;
+    flex-wrap: wrap;
+}
+.layouta section
+{
+
+}
+.layouta .colors
+{
+    display: flex;
+}
+
+@media screen and (min-width:10px)
+{
+  nav li 
+  {
+      
+  }
+}
