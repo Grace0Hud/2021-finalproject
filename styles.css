@@ -92,7 +92,7 @@ div#d
 {
     background-color: var(--tertiary);
 }
-.layouta
+.layoutb
     {
         display: flex;
         flex-direction: column;
@@ -110,41 +110,56 @@ div#d
         margin-inline-end:2.5rem;
         padding:0.5rem;
     }
-    .layouta section 
+    .layoutb section 
     {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .layouta .colors
+    .layoutb .colors
     {
         display: flex;
+        flex-direction: column;
         margin: auto;
     }
 
     .colors div 
     {
-        min-inline-size: 2rem;
-        min-block-size: 6rem;
+        min-inline-size: 10rem;
+        min-block-size: 2rem;
     }
 }
 @media screen and (min-width:35rem)
 {
-   .layouta section 
+   .layoutb section 
     {
         display: flex;
         column-gap: 2rem;
     }
-    .layouta .colors 
+    .layoutb .colors 
     {
         display: flex;
         flex-wrap: wrap;
-        max-inline-size: 8rem;
+        max-inline-size: 16rem;
     }
    .colors div 
     {
-        min-inline-size: 4rem;
-        max-block-size: 4rem;
+        min-inline-size: 8rem;
+        min-block-size: 8rem;
+    }
+}
+@media screen and (min-width:60rem)
+{
+    .layoutb
+    {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 3rem;
+        max-inline-size: 60rem;
+        margin: auto;
+        margin-block-start: 2rem;
     }
 }
