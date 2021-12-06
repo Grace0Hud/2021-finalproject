@@ -124,10 +124,31 @@ div#d
         margin: auto;
     }
 
-    .colors div 
+    .layoutb .colors div 
     {
         min-inline-size: 10rem;
         min-block-size: 2rem;
+    }
+    .layouta .colors
+    {
+        max-inline-size: 10rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 8rem;
+        margin: auto;
+        column-gap: 0;
+    }
+    .layouta
+    {
+        display: grid;
+        max-inline-size: 30rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .layouta div 
+    {
+        text-align: center;
     }
 }
 @media screen and (min-width:35rem)
