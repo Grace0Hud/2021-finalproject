@@ -56,8 +56,8 @@ nav
      border: 0.5rem double var(--dark);
 }
 /* nav styles end */
-
 /* layout a styles start */
+/*
 .layouta
 {
     margin: 1rem;
@@ -74,11 +74,59 @@ nav
 {
     display: flex;
 }
+/*  */
 
-@media screen and (min-width:10px)
+div#a 
 {
-  nav li 
-  {
-      
-  }
+    background-color: var(--dark);
+}
+div#b
+{
+    background-color: var(--primary);
+}
+div#c 
+{
+    background-color: var(--secondary);
+}
+div#d
+{
+    background-color: var(--tertiary);
+}
+@media screen and (max-width:35rem)
+{
+    nav li 
+    {
+        display: block;
+        margin-inline-end:2.5rem;
+        padding:0.5rem;
+    }
+
+    .layouta
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-inline-size: 25vw;
+        margin: auto;
+        margin-top: 2rem;
+        row-gap: 1rem;
+    }
+    .layouta section 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .layouta .colors
+    {
+        display: flex;
+        margin: auto;
+    }
+
+    .colors div 
+    {
+        min-inline-size: 2rem;
+        min-block-size: 6rem;
+    }
 }
