@@ -92,16 +92,7 @@ div#d
 {
     background-color: var(--tertiary);
 }
-@media screen and (max-width:35rem)
-{
-    nav li 
-    {
-        display: block;
-        margin-inline-end:2.5rem;
-        padding:0.5rem;
-    }
-
-    .layouta
+.layouta
     {
         display: flex;
         flex-direction: column;
@@ -110,6 +101,14 @@ div#d
         margin: auto;
         margin-top: 2rem;
         row-gap: 1rem;
+    }
+@media screen and (max-width:35rem)
+{
+    nav li 
+    {
+        display: block;
+        margin-inline-end:2.5rem;
+        padding:0.5rem;
     }
     .layouta section 
     {
@@ -128,5 +127,24 @@ div#d
     {
         min-inline-size: 2rem;
         min-block-size: 6rem;
+    }
+}
+@media screen and (min-width:35rem)
+{
+   .layouta section 
+    {
+        display: flex;
+        column-gap: 2rem;
+    }
+    .layouta .colors 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        max-inline-size: 8rem;
+    }
+   .colors div 
+    {
+        min-inline-size: 4rem;
+        max-block-size: 4rem;
     }
 }
