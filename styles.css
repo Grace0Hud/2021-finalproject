@@ -110,6 +110,12 @@ div#d
     {
         text-align: center;
     }
+
+.homelayout section
+{
+    background-color: var(--primary);
+    text-align: center;
+}
 @media screen and (max-width:35rem)
 {
     nav li 
@@ -118,11 +124,13 @@ div#d
         margin-inline-end:2.5rem;
         padding:0.5rem;
     }
-    .layoutb section 
+    .layoutb section
     {
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-inline-size: 35rem;
+        margin:auto;
     }
 
     .layoutb .colors
@@ -153,12 +161,16 @@ div#d
         margin: auto;
         margin-top: 2rem;
     }
-
-    
+    .homelayout
+    {
+        max-inline-size: 20rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
 }
 @media screen and (min-width:35rem)
 {
-   .layoutb section 
+   .layoutb section
     {
         display: flex;
         column-gap: 2rem;
@@ -174,7 +186,7 @@ div#d
         min-inline-size: 8rem;
         min-block-size: 8rem;
     }
-    .layouta
+    .layouta, .homelayout
     {
         max-inline-size: 30rem;
         margin: auto;
@@ -197,7 +209,7 @@ div#d
 }
 @media screen and (min-width:60rem)
 {
-    .layoutb
+    .layoutb, .homelayout
     {
         display:flex;
         flex-direction: row;
@@ -207,6 +219,10 @@ div#d
         max-inline-size: 60rem;
         margin: auto;
         margin-block-start: 2rem;
+    }
+    .homelayout section
+    {
+        flex-grow: 1;
     }
     .layouta
     {
