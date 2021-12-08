@@ -15,11 +15,16 @@ h1
     padding: 1rem;
     background-color: var(--dark);
 }
+.home h2 
+{
+    text-align: center;
+}
 body
 {
     background-color:var(--light);
     font-family: 'Quicksand', sans-serif;
 }
+
 /* nav styles start */
 nav li
 {
@@ -115,6 +120,12 @@ div#d
 {
     background-color: var(--primary);
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.homelayout ul
+{
+    text-align: start;
 }
 @media screen and (max-width:35rem)
 {
@@ -222,7 +233,7 @@ div#d
     }
     .homelayout section
     {
-        flex-grow: 1;
+        max-inline-size: 20rem;
     }
     .layouta
     {
