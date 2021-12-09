@@ -23,8 +23,22 @@ body
 {
     background-color:var(--light);
     font-family: 'Quicksand', sans-serif;
+    color: var(--dark);
 }
-
+#hellos
+{
+    font-family: 'Nothing You Could Do', cursive;
+    color: #202319;
+}
+#rickym
+{
+    font-family: 'Major Mono Display', monospace;
+    color:#ffdfe6;
+}
+iframe
+{
+   border: 0.5rem solid var(--tertiary); 
+}
 /* nav styles start */
 nav li
 {
