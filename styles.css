@@ -35,6 +35,26 @@ body
     font-family: 'Major Mono Display', monospace;
     color:#ffdfe6;
 }
+#bearsintrees .colors #a
+{
+    background-color: #ba4d40;
+}
+#bearsintrees .colors #b
+{
+    background-color: #2a1618;
+}
+#bearsintrees .colors #c
+{
+    background-color: #897a55;
+}
+#bearsintrees .colors #d
+{
+    background-color: #c0a45a;
+}
+#bearsintrees h2
+{
+    font-family: 'Rubik Beastly', cursive;
+}
 iframe
 {
    border: 0.5rem solid var(--tertiary); 
@@ -217,19 +237,20 @@ div#d
         margin: auto;
         margin-top: 2rem;
         row-gap: 2rem;
+        column-gap: 2rem;
     }
     .layouta .colors
     {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        min-block-size: 15rem;
-        max-inline-size: 15rem;
+        grid-template-columns: repeat(2, 2fr);
+        inline-size: 15rem;
+        block-size: 15rem;
     }
     .layouta section
     {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 0rem;
+        column-gap: 1rem;
     }
 }
 @media screen and (min-width:60rem)
