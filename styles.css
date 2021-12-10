@@ -55,6 +55,46 @@ body
 {
     font-family: 'Rubik Beastly', cursive;
 }
+#shayferjames .colors #a
+{
+    background-color: #5e5e5c;
+}
+#shayferjames .colors #b
+{
+    background-color: #b20000;
+}
+#shayferjames .colors #c
+{
+    background-color: #000000;
+}
+#shayferjames .colors #d
+{
+    background-color: #84bdcd;
+}
+#shayferjames h2
+{
+    font-family: 'Macondo Swash Caps', cursive;
+}
+#florence .colors #a
+{
+    background-color: #c25a1b;
+}
+#florence .colors #b
+{
+    background-color: #b51a38;
+}
+#florence .colors #c
+{
+    background-color: #000000;
+}
+#florence .colors #d
+{
+    background-color: #22a27a;
+}
+#florence h2
+{
+    font-family: 'Staatliches', cursive;
+}
 iframe
 {
    border: 0.5rem solid var(--tertiary); 
