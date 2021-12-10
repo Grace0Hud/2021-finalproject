@@ -340,4 +340,8 @@ div#d
         margin: auto;
         margin-top: 2rem;
     }
+    .homelayout
+    {
+       margin-left: 22%;
+    }
 }
